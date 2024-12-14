@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6BDC9D2B2D0D2C6300D797FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BDC9D0C2D0D2C6200D797FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDC9D132D0D2C6200D797FE;
+			remoteInfo = DigitalSignature;
+		};
+		6BDC9D352D0D2C6300D797FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BDC9D0C2D0D2C6200D797FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDC9D132D0D2C6200D797FE;
+			remoteInfo = DigitalSignature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BDC9D142D0D2C6200D797FE /* DigitalSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDC9D2A2D0D2C6300D797FE /* DigitalSignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalSignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDC9D342D0D2C6300D797FE /* DigitalSignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalSignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6BDC9D3C2D0D2C6300D797FE /* Exceptions for "DigitalSignature" folder in "DigitalSignature" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6BDC9D132D0D2C6200D797FE /* DigitalSignature */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6BDC9D162D0D2C6200D797FE /* DigitalSignature */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6BDC9D3C2D0D2C6300D797FE /* Exceptions for "DigitalSignature" folder in "DigitalSignature" target */,
+			);
+			path = DigitalSignature;
+			sourceTree = "<group>";
+		};
+		6BDC9D2D2D0D2C6300D797FE /* DigitalSignatureTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DigitalSignatureTests;
+			sourceTree = "<group>";
+		};
+		6BDC9D372D0D2C6300D797FE /* DigitalSignatureUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DigitalSignatureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BDC9D112D0D2C6200D797FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC9D272D0D2C6300D797FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC9D312D0D2C6300D797FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BDC9D0B2D0D2C6200D797FE = {
+			isa = PBXGroup;
+			children = (
+				6BDC9D162D0D2C6200D797FE /* DigitalSignature */,
+				6BDC9D2D2D0D2C6300D797FE /* DigitalSignatureTests */,
+				6BDC9D372D0D2C6300D797FE /* DigitalSignatureUITests */,
+				6BDC9D152D0D2C6200D797FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BDC9D152D0D2C6200D797FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC9D142D0D2C6200D797FE /* DigitalSignature.app */,
+				6BDC9D2A2D0D2C6300D797FE /* DigitalSignatureTests.xctest */,
+				6BDC9D342D0D2C6300D797FE /* DigitalSignatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BDC9D132D0D2C6200D797FE /* DigitalSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDC9D3D2D0D2C6300D797FE /* Build configuration list for PBXNativeTarget "DigitalSignature" */;
+			buildPhases = (
+				6BDC9D102D0D2C6200D797FE /* Sources */,
+				6BDC9D112D0D2C6200D797FE /* Frameworks */,
+				6BDC9D122D0D2C6200D797FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6BDC9D162D0D2C6200D797FE /* DigitalSignature */,
+			);
+			name = DigitalSignature;
+			packageProductDependencies = (
+			);
+			productName = DigitalSignature;
+			productReference = 6BDC9D142D0D2C6200D797FE /* DigitalSignature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BDC9D292D0D2C6300D797FE /* DigitalSignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDC9D422D0D2C6300D797FE /* Build configuration list for PBXNativeTarget "DigitalSignatureTests" */;
+			buildPhases = (
+				6BDC9D262D0D2C6300D797FE /* Sources */,
+				6BDC9D272D0D2C6300D797FE /* Frameworks */,
+				6BDC9D282D0D2C6300D797FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BDC9D2C2D0D2C6300D797FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BDC9D2D2D0D2C6300D797FE /* DigitalSignatureTests */,
+			);
+			name = DigitalSignatureTests;
+			packageProductDependencies = (
+			);
+			productName = DigitalSignatureTests;
+			productReference = 6BDC9D2A2D0D2C6300D797FE /* DigitalSignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BDC9D332D0D2C6300D797FE /* DigitalSignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDC9D452D0D2C6300D797FE /* Build configuration list for PBXNativeTarget "DigitalSignatureUITests" */;
+			buildPhases = (
+				6BDC9D302D0D2C6300D797FE /* Sources */,
+				6BDC9D312D0D2C6300D797FE /* Frameworks */,
+				6BDC9D322D0D2C6300D797FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BDC9D362D0D2C6300D797FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BDC9D372D0D2C6300D797FE /* DigitalSignatureUITests */,
+			);
+			name = DigitalSignatureUITests;
+			packageProductDependencies = (
+			);
+			productName = DigitalSignatureUITests;
+			productReference = 6BDC9D342D0D2C6300D797FE /* DigitalSignatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BDC9D0C2D0D2C6200D797FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6BDC9D132D0D2C6200D797FE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6BDC9D292D0D2C6300D797FE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6BDC9D132D0D2C6200D797FE;
+					};
+					6BDC9D332D0D2C6300D797FE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6BDC9D132D0D2C6200D797FE;
+					};
+				};
+			};
+			buildConfigurationList = 6BDC9D0F2D0D2C6200D797FE /* Build configuration list for PBXProject "DigitalSignature" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BDC9D0B2D0D2C6200D797FE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6BDC9D152D0D2C6200D797FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BDC9D132D0D2C6200D797FE /* DigitalSignature */,
+				6BDC9D292D0D2C6300D797FE /* DigitalSignatureTests */,
+				6BDC9D332D0D2C6300D797FE /* DigitalSignatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BDC9D122D0D2C6200D797FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC9D282D0D2C6300D797FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC9D322D0D2C6300D797FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BDC9D102D0D2C6200D797FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC9D262D0D2C6300D797FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDC9D302D0D2C6300D797FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BDC9D2C2D0D2C6300D797FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDC9D132D0D2C6200D797FE /* DigitalSignature */;
+			targetProxy = 6BDC9D2B2D0D2C6300D797FE /* PBXContainerItemProxy */;
+		};
+		6BDC9D362D0D2C6300D797FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDC9D132D0D2C6200D797FE /* DigitalSignature */;
+			targetProxy = 6BDC9D352D0D2C6300D797FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BDC9D3E2D0D2C6300D797FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalSignature/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asma.DigitalSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BDC9D3F2D0D2C6300D797FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalSignature/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asma.DigitalSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BDC9D402D0D2C6300D797FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BDC9D412D0D2C6300D797FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BDC9D432D0D2C6300D797FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asma.DigitalSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalSignature.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalSignature";
+			};
+			name = Debug;
+		};
+		6BDC9D442D0D2C6300D797FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asma.DigitalSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalSignature.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalSignature";
+			};
+			name = Release;
+		};
+		6BDC9D462D0D2C6300D797FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asma.DigitalSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalSignature;
+			};
+			name = Debug;
+		};
+		6BDC9D472D0D2C6300D797FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asma.DigitalSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalSignature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BDC9D0F2D0D2C6200D797FE /* Build configuration list for PBXProject "DigitalSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC9D402D0D2C6300D797FE /* Debug */,
+				6BDC9D412D0D2C6300D797FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDC9D3D2D0D2C6300D797FE /* Build configuration list for PBXNativeTarget "DigitalSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC9D3E2D0D2C6300D797FE /* Debug */,
+				6BDC9D3F2D0D2C6300D797FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDC9D422D0D2C6300D797FE /* Build configuration list for PBXNativeTarget "DigitalSignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC9D432D0D2C6300D797FE /* Debug */,
+				6BDC9D442D0D2C6300D797FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDC9D452D0D2C6300D797FE /* Build configuration list for PBXNativeTarget "DigitalSignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDC9D462D0D2C6300D797FE /* Debug */,
+				6BDC9D472D0D2C6300D797FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BDC9D0C2D0D2C6200D797FE /* Project object */;
+}
